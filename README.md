@@ -1,15 +1,12 @@
 # Debugging TypeScript in VS Code Without Compiling (using `ts-node`)
 
 This repo contains a sample TypeScript project with a Visual Studio Code `launch.json` that
-allows you run TypeScript code and Mocha tests without a separate build step.
-
-It has been tested with **Node 8.4** and **VS Code 1.16** (the latest at time of writing!),
-your mileage with other versions may vary! :)
+allows you run TypeScript code and Mocha tests without a separate build step and is configured to work with the Mocha Test Explorer extension.
 
 ## Usage
 
 ```
-git clone https://github.com/EnterpriseJSTutorial/vscode-ts-node-debugging.git
+git clone this repo
 npm install
 ```
 
